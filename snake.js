@@ -87,9 +87,7 @@ if (score > highestScore) {
     highestScore = score;
     localStorage.setItem("highestScore", highestScore);
     secondBestScore = localStorage.getItem("secondBestScore");
-    if (score > secondBestScore) {
-        alert("CONGRATULATIONS! YOU ARE NOW THE LEADING SCORER!!!");
-    }
+    
 }
 
 
